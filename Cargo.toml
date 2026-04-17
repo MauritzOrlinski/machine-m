@@ -1,0 +1,10 @@
+[package]
+name = "machine-m"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nom = "8.0.0"
+clap = {version = "4.6", features = ["derive"]}
+fxhash = "0.2.1"
+rand = "0.10.1"
